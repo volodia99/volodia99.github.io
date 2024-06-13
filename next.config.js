@@ -13,12 +13,9 @@ const nextConfig = {
 //     ],
 //   },
 // }
-
-// module.exports = nextConfig
-
   images: {
     unoptimized: true,
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig
