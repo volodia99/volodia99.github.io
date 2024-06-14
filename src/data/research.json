@@ -1,0 +1,52 @@
+[
+  {
+    "year": 2023,
+    "jobs": [
+      {
+        "title": "Planet-disk-wind interaction: The magnetized fate of protoplanets",
+        "author": "Wafflard-Fernandez G., Lesur G.",
+        "description": "Les vents magnétiques affectent les interactions planète-disque, avec des écoulements 3D complexes, des streamers d’accrétion soniques dans un sillon asymétrique, et une possible migration planétaire vers l’extérieur.",
+        "tags": ["accretion", "accretion disks", "protoplanetary disks", "magnetic winds", "planet-disk interactions", "magnetohydrodynamics (MHD)"]
+      },
+      {
+        "title": "IDEFIX: A versatile performance-portable Godunov code for astrophysical flows",
+        "author": "Lesur G., Baghdadi S., Wafflard-Fernandez G., Mauxion J., Robert C., Van den Bossche M.",
+        "description": "Idefix est un code accéléré par GPU pour lequel j’ai co-écrit le module des planètes. Il est basé sur un schéma de Godunov à volumes finis et portable sur une grande variété d’architectures. Il est particulièrement adapté aux écoulements astrophysiques, et notamment aux intéractions disque-planète.",
+        "tags": ["hydrodynamics", "magnetohydrodynamics (MHD)", "numerical methods", "GPU"]
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "jobs": [
+      {
+        "title": "Observational signatures of eccentric Jupiters inside gas cavities in protoplanetary discs",
+        "author": "Baruteau C., Wafflard-Fernandez G., Le Gal R., Debras F., Carmona A., Fuente A., Rivière-Marichalar P.",
+        "description": "Une Jupiter tiède excentrique à l’intérieur d’une cavité génère dans l’émission du CO des asymétries pour l’intensité et des perturbations pour la vitesse visibles avec ALMA, mais affecte peu les émissions des autres isotopes du CO, le continuum radio d’émission thermique des poussières et lumière diffusée par elles dans le proche-IR.",
+        "tags": ["accretion", "accretion disks", "protoplanetary disks", "planet-disk interactions", "planet migration", "eccentricity", "hydrodynamics", "radiative transfer"]
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "jobs": [
+      {
+        "title": "Intermittent planet migration and the formation of multiple dust rings and gaps in protoplanetary disks",
+        "author": "Wafflard-Fernandez G., Baruteau C.",
+        "description": "Une planète unique de type Saturne alternant entre migration lente et emballée génère des anneaux concentriques de poussières, visibles par ALMA sous la forme d’anneaux brillants et sombres.",
+        "tags": ["accretion", "accretion disks", "protoplanetary disks", "planet-disk interactions", "planet migration", "hydrodynamics", "radiative transfer"]
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "jobs": [
+      {
+        "title": "A Comparison of Two Methods for Estimating Black Hole Spin in Active Galactic Nuclei",
+        "author": "Capellupo D., Wafflard-Fernandez G., Haggard D.",
+        "description": "L’estimation du spin de deux trous noirs d’AGNs est cohérente entre deux méthodes, ce qui renforce leur fiabilité, mais dépend fortement d’une mesure précise de la masse des trous noirs et de l’impact de vents de disque sur l’accrétion.",
+        "tags": ["accretion", "accretion disks", "black hole physics", "galaxies: active", "galaxies: Seyfert", "Astrophysics of Galaxies", "High Energy Astrophysical Phenomena"]
+      }
+    ]
+  }
+]

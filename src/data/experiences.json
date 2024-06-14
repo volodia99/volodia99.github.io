@@ -1,32 +1,27 @@
 [
   {
-    "year": 2014,
-    "title": "Lojas Incor",
-    "description": "Responsável pelo desenvolvimento da interface e cuidado à experiência do usuário das lojas virtuais, criação das campanhas publicitárias, banners e toda a gestão de artes do site utilizando Adobe Photoshop e Adobe Illustrator."
+    "year": 2015,
+    "title": "IAS, Orsay",
+    "description": "Internship (1.5 months) about the magnetic activity of the Sun, in visible and in extreme UV regions. Under the supervision of Frédéric Baudin."
   },
   {
     "year": 2016,
-    "title": "INSANE",
-    "description": "Estruturação de e-mails marketing, focando na performance em dispositivos móveis;Programação e manutenção front-end de projetos online (sites institucionais, landing pages, one pages e blogs), utilizando WordPress, Jekyll, PHP e HTML5."
+    "title": "MSI, Montreal",
+    "description": "Internship (3 months) about a comparison of two black hole spin estimators for active galactic nuclei. Under the supervision of Daryl Haggard & Daniel Capellupo."
+  },
+  {
+    "year": 2017,
+    "title": "IAP, Paris",
+    "description": "Master's thesis (3 months) about the life cycle of black holes in galaxies. Under the supervision of Marta Volonteri & Alexander Y. Wagner."
   },
   {
     "year": 2018,
-    "title": "Pacto.online",
-    "description": "Responsável pela manutenção do UI styleguide da empresa, criação das telas front-end utilizando Figma para prototipação, e Vue.js e Laravel para produção, criação e vazão de e-mails marketings."
+    "title": "IRAP, Toulouse",
+    "description": "PhD (3 years) about observational predictions of planetary migration in the dust content of protoplanetary disks. Under the supervision of Clément Baruteau."
   },
   {
-    "year": 2018,
-    "title": "Murilhas Comunicação",
-    "description": "Responsável pela manutenção do UI styleguide da empresa, criação das telas front-end utilizando Figma para prototipação, e Vue.js e Laravel para produção, criação e vazão de e-mails marketings."
-  },
-  {
-    "year": "2019",
-    "title": "Din Digital",
-    "description": "Desenvolvimento de sites, aplicações e landing pages utilizando Laravel, WordPress, Vue.js e Angular. Atuando desde a montagem até a integração com APIs."
-  },
-  {
-    "year": "2023",
-    "title": "Docway",
-    "description": "Desenvolvimento de novas aplicações em React e sustentação de aplicações feitas com ASP.NET MVC, atuando com grande equipe de tecnologia."
+    "year": "2021",
+    "title": "IPAG, Grenoble",
+    "description": "Postdoctorate (4 years) about the interactions between protoplanetary disks, magnetic winds and planets. Under the supervision of Geoffroy Lesur."
   }
 ]

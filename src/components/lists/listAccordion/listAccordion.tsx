@@ -26,7 +26,7 @@ export default function ListAccordion(props: Props) {
             </summary>
             <div className={styles.content}>
               <p>{item.content}</p>
-              <ButtonCTA title="Entre em contato" href="mailto:me@kevinoliveira.com.br" />
+              {/* <ButtonCTA title="Contact" href="mailto:gaylor.wafflard@univ-grenoble-alpes.fr" /> */}
 
               {item.thumb ?
                 <Image className={styles.image} src={item.thumb} width="648" height="486" loading="lazy" alt={item.thumbAlt} />
