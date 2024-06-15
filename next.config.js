@@ -1,22 +1,5 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: 'export',  
-//   experimental: {
-//     appDir: false,
-//   },
-//   images: {
-//     remotePatterns: [
-//       {
-//         protocol: 'https',
-//         hostname: 'cdn.dribbble.com',
-//       },
-//     ],
-//   },
-// }
+/** @type {import('next').NextConfig} */
 
-// module.exports = nextConfig
-
-// next.config.js
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
 let assetPrefix = '';
@@ -30,10 +13,22 @@ if (isGithubActions) {
   basePath = `/${repo}`;
 }
 
-module.exports = {
+const nextConfig = {
+  output: 'export',  
+  experimental: {
+    appDir: false,
+  },
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
-    unoptimized: true, // Since GitHub Pages does not support Next.js optimized images
+    unoptimized: isGithubActions, // Only set to true for GitHub Actions
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.dribbble.com',
+      },
+    ],
   },
-};
+}
+
+module.exports = nextConfig
