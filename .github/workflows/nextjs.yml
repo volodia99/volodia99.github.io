@@ -74,3 +74,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages  # Or the branch you are deploying to
           publish_dir: ./out  # Deploy all files from the out directory (including _next directory)
+        env: 
+          NODE_VERSION: '20.x'
