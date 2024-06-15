@@ -1,5 +1,5 @@
 {
-  "name": "kevinoliveira.com.br",
+  "name": "volodia99.github.io",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -9,7 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"  // Ensure you have this if using static export
   },
   "dependencies": {
     "@next/font": "13.1.6",
