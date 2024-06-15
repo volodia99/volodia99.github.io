@@ -21,7 +21,7 @@ const nextConfig = {
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
-    unoptimized: isGithubActions, // Only set to true for GitHub Actions
+    unoptimized: !!isGithubActions, // Only set to true for GitHub Actions
     remotePatterns: [
       {
         protocol: 'https',
