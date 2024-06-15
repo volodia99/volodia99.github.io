@@ -43,11 +43,14 @@ jobs:
       - name: Build with Next.js
         run: npm run build
 
+      - name: Zip artifact for deployment
+        run: zip release.zip ./* -r
+
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: nextjs-build
-          path: .  # Uploads all files in the current directory (including _next directory)
+          path: release.zip  # Uploads all files in the current directory (including _next directory)
 
   # Deployment job
   deploy:
@@ -56,6 +59,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v3
+        with:
+          name: nextjs-build
+          
+      - name: unzip artifact for deployment
+        run: unzip release.zip
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.2.0  # Replace with your deployment action
