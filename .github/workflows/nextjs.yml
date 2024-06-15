@@ -73,4 +73,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages  # Or the branch you are deploying to
-          FOLDER: .  # Deploy all files from the root directory (including _next directory)
+          FOLDER: out  # Deploy all files from the out directory (including _next directory)
