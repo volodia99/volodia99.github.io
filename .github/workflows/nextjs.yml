@@ -44,7 +44,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: nextjs-build
           path: .  # Uploads all files in the current directory (including _next directory)
@@ -61,5 +61,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.2.0  # Replace with your deployment action
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master  # Or the branch you are deploying to
+          BRANCH: gh-pages  # Or the branch you are deploying to
           FOLDER: .  # Deploy all files from the root directory (including _next directory)
