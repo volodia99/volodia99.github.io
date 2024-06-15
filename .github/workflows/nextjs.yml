@@ -69,8 +69,8 @@ jobs:
         run: unzip -o release.zip
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.2.0  # Replace with your deployment action
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages  # Or the branch you are deploying to
-          FOLDER: ./out  # Deploy all files from the out directory (including _next directory)
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages  # Or the branch you are deploying to
+          publish_dir: ./out  # Deploy all files from the out directory (including _next directory)
