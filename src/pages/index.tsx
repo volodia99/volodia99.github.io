@@ -23,7 +23,7 @@ export default function Index() {
         <meta name="twitter:title" content="Gaylor Wafflard-Fernandez"/>
         <meta name="twitter:description" content="PostDoc in Astrophysics at IPAG, previously working at IRAP. Protoplanetary Disks & Simulations."/>
         <meta name="twitter:image" content="https://kevinoliveira.com.br/img/code-in-the-dark.png"/> */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/favicon.ico" />
         <meta
           name="google-site-verification"
           content="e8tKK8_XjvMNTjaAiBPkX3bu_03VuuQzNjcHFTMS8mI"
