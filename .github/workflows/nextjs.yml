@@ -60,11 +60,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v3
-        with:
-          name: nextjs-build
-          
       - name: unzip artifact for deployment
         run: unzip release.zip
 
