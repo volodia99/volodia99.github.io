@@ -44,7 +44,8 @@
   }
 
   svg {
-    font-size: 24px;
+    // font-size: 24px;
+    font-size: 19px;
     color: var(--color-secondary);
 
     @media (min-width: 768px) {
@@ -63,7 +64,8 @@
   &::before {
     counter-increment: my-counter;
     content: '0' counters(my-counter, '');
-    font-size: 24px;
+    // font-size: 24px;
+    font-size: 19px;
     line-height: 120%;
     width: 48px;
     opacity: 0.5;

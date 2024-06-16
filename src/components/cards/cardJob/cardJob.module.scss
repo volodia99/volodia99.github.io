@@ -11,33 +11,59 @@
 .title {
   position: relative;
   width: 100%;
-  font-size: 24px;
+  // font-size: 24px;
+  font-size: 19px;
   line-height: 1.2;
   font-weight: 400;
   transition: 0.2s opacity ease;
 
   @media (min-width: 768px) {
-    font-size: 32px;
+    // font-size: 32px;
+    font-size: 25px;
   }
 
   @media (min-width: 1280px) {
-    font-size: 40px;
+    // font-size: 40px;
+    font-size: 32px;
+  }
+}
+
+.author {
+  opacity: 0.8;
+  // font-size: 18px;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: 6px;
+
+  @media (min-width: 768px) {
+    // font-size: 20px;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  @media (min-width: 1280px) {
+    // font-size: 24px;
+    font-size: 19px;
+    margin-top: 12px;
   }
 }
 
 .description {
   opacity: 0.5;
-  font-size: 18px;
+  // font-size: 18px;
+  font-size: 13px;
   line-height: 1.5;
   margin-top: 12px;
 
   @media (min-width: 768px) {
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 15px;
     margin-top: 16px;
   }
 
   @media (min-width: 1280px) {
-    font-size: 24px;
+    // font-size: 24px;
+    font-size: 18px;
     margin-top: 24px;
   }
 }

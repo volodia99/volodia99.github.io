@@ -24,7 +24,8 @@
 .icon {
   margin-bottom: 24px;
   opacity: 0.5;
-  font-size: 16px;
+  // font-size: 16px;
+  font-size: 14px;
   transition: 0.2s opacity ease;
 
   @media (min-width: 768px) {
@@ -45,7 +46,8 @@
 }
 
 .title {
-  font-size: 14px;
+  // font-size: 14px;
+  font-size: 12px;
   line-height: 14px;
   font-weight: 500;
   opacity: 0.5;
@@ -71,7 +73,8 @@
   background-color: var(--color-secondary);
   border-radius: 4px;
   color: var(--color-primary);
-  font-size: 12px;
+  // font-size: 12px;
+  font-size: 10px;
 
   @media (min-width: 768px) {
     width: 16px;
