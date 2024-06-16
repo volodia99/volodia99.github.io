@@ -26,12 +26,6 @@ export default function more() {
               content: 'TBD',
               thumb: '',
               thumbAlt: ''
-            },
-            {
-              title: 'Under construction',
-              content: 'TBD',
-              thumb: '',
-              thumbAlt: ''
             }
           ]} />
         </div>
