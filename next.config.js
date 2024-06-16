@@ -6,8 +6,8 @@ let assetPrefix = '';
 let basePath = '';
 
 if (isGithubActions) {
-  assetPrefix = "/volodia99.github.io";
-  basePath = "/volodia99.github.io";
+  assetPrefix = ".";
+  basePath = ".";
 }
 
 const nextConfig = {
