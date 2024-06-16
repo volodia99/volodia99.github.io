@@ -12,23 +12,21 @@
 
   img {
     display: block;
-    width: 100%; // Ensures the image takes up the full width of the container
-    max-width: 280px; // Sets a maximum width for smaller screens
-    height: auto; // Maintains aspect ratio
-    // width: auto;
+    width: auto;
     // height: 296px;
+    height: 220px;
     margin: 0 auto 8px;
     mix-blend-mode: exclusion;
     user-select: none;
 
     @media (min-width: 768px) {
       margin: 0 auto 12px;
-      // height: 408px;
+      height: 408px;
     }
 
     @media (min-width: 1280px) {
       margin: 0 auto 16px;
-      // height: 480px;
+      height: 480px;
     }
   }
 
