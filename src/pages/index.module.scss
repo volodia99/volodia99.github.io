@@ -58,10 +58,11 @@
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 8px;
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr; //1fr;
+    grid-gap: 16px;
   }
 
   // @media (max-width: 480px) { // Additional media query for very narrow screens
