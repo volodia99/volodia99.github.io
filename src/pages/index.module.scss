@@ -14,7 +14,7 @@
     display: block;
     width: auto;
     // height: 296px;
-    height: 200px;
+    height: 190px;
     margin: 0 auto 8px;
     mix-blend-mode: exclusion;
     user-select: none;
@@ -64,7 +64,7 @@
     grid-template-columns: 1fr 1fr 1fr; //1fr;
   }
 
-  @media (max-width: 320px) { // Additional media query for very narrow screens
+  @media (max-width: 480px) { // Additional media query for very narrow screens
     grid-template-columns: 1fr;
   }
 }
