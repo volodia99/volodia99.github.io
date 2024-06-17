@@ -14,6 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying the files and directories inside the `src/pages` directory. The page auto-updates as you edit these files. All images and files are located in the `public` directory.
 
+For the automatic build and deploy, go to the `Settings/Pages` section of you git repository and choose to "Deploy from a branch" different from `master` (for example a pre-existing branch `gh-pages` (root)). You can then look at the `.github/workflows/nextjs.yml` file as well as `next.config.js` (and to a lesser extent `package.json` and `package-lock.json`).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
