@@ -42,7 +42,7 @@ export default function About() {
             'Planet migration',
           ]} />
 
-          <ListTags title="Skills" list={[
+          <ListTags title="Technical experience" list={[
             'Python',
             'Latex',
             'Git',
