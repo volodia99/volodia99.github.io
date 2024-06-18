@@ -1,7 +1,7 @@
 import ListTags from '@/components/lists/listTags/listTags';
 import Link from "next/link";
-import ButtonCTA from '@/components/buttons/cta/cta';
 import Image from 'next/image';
+import MarkdownWithMath from '@/components/markdown/MarkdownWithMath';
 import styles from './cardJob.module.scss';
 
 type Props = {
@@ -20,7 +20,10 @@ export default function CardJob(props: Props) {
         <Link href={props.href} target="_blank">{props.title}</Link>
       </h3>
       <p className={styles.author}>{props.author}</p>
-      <p className={styles.description}>{props.description}</p>
+      <div className={styles.description}>
+        <MarkdownWithMath content={props.description} />
+      </div>
+      {/* <p className={styles.description}>{props.description}</p> */}
       {props.image && (
         <Image className={styles.image} src={props.image} loading="lazy" width="720" height="560" alt={`Conceito do projeto ${props.title}`} />
       )}

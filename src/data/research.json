@@ -25,7 +25,7 @@
         "title": "Observational signatures of eccentric Jupiters inside gas cavities in protoplanetary discs",
         "href": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.505..359B/abstract",
         "author": "Baruteau C., Wafflard-Fernandez G., Le Gal R., Debras F., Carmona A., Fuente A., Rivière-Marichalar P.",
-        "description": "Une Jupiter tiède excentrique à l’intérieur d’une cavité génère dans l’émission du r'$^12$CO' des asymétries pour l’intensité et des perturbations pour la vitesse visibles avec ALMA, mais affecte peu les émissions des autres isotopes du CO, le continuum radio d’émission thermique des poussières et lumière diffusée par elles dans le proche-IR.",
+        "description": "Une Jupiter tiède excentrique à l’intérieur d’une cavité génère dans l’émission du $^{12}$CO des asymétries pour l’intensité et des perturbations pour la vitesse visibles avec ALMA, mais affecte peu les émissions du $^{13}$CO et du C$^{18}$O, le continuum radio d’émission thermique des poussières et lumière diffusée par elles dans le proche-IR.",
         "tags": ["accretion", "accretion disks", "protoplanetary disks", "planet-disk interactions", "planet migration", "eccentricity", "hydrodynamics", "radiative transfer"]
       }
     ]
