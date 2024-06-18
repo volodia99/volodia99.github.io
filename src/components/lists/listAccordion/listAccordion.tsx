@@ -1,4 +1,5 @@
 import ButtonCTA from '@/components/buttons/cta/cta';
+import MarkdownWithMath from '@/components/markdown/MarkdownWithMath';
 import { Icon } from '@iconify/react';
 import Image from 'next/image';
 import styles from './listAccordion.module.scss';
@@ -8,6 +9,7 @@ type Props = {
 }
 
 type ItemProps = {
+  href: string,
   title: string,
   content: string,
   thumb: string,
@@ -25,13 +27,15 @@ export default function ListAccordion(props: Props) {
               <Icon icon="eva:diagonal-arrow-right-up-outline" />
             </summary>
             <div className={styles.content}>
-              <p>{item.content}</p>
-              {/* <ButtonCTA title="Contact" href="mailto:gaylor.wafflard@univ-grenoble-alpes.fr" /> */}
-
               {item.thumb ?
-                <Image className={styles.image} src={item.thumb} width="648" height="486" loading="lazy" alt={item.thumbAlt} />
-                : ''
+                  <Image className={styles.image} src={item.thumb} width="648" height="486" loading="lazy" alt={item.thumbAlt} />
+                  : ''
               }
+              <div className={styles.description}>
+                <MarkdownWithMath content={item.content} />
+              </div>
+              {/* <p>{item.content}</p> */}
+              <ButtonCTA title="See more" href={item.href} />
 
             </div>
           </details>

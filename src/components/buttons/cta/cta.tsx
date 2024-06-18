@@ -9,7 +9,7 @@ type Props = {
 
 export default function ButtonCTA(props: Props) {
   return(
-    <Link className={styles.button} href={props.href}>
+    <Link className={styles.button} href={props.href} target="_blank">
       <span>{props.title}</span>
       <Icon icon="eva:arrow-forward-outline" />
     </Link>

@@ -23,7 +23,6 @@ export default function CardJob(props: Props) {
       <div className={styles.description}>
         <MarkdownWithMath content={props.description} />
       </div>
-      {/* <p className={styles.description}>{props.description}</p> */}
       {props.image && (
         <Image className={styles.image} src={props.image} loading="lazy" width="720" height="560" alt={`Conceito do projeto ${props.title}`} />
       )}

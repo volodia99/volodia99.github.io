@@ -1,7 +1,8 @@
 import ListAccordion from "@/components/lists/listAccordion/listAccordion";
+import more from '@/data/more.json';
 import Head from "next/head";
 
-export default function more() {
+export default function More() {
   return(
     <>
       <Head>
@@ -14,26 +15,7 @@ export default function more() {
             <strong>Scientific productions</strong>
           </h1>
 
-          <ListAccordion list={[
-            {
-              title: 'Under construction',
-              content: 'TBD',
-              thumb: '',
-              thumbAlt: ''
-            },
-            {
-              title: 'Under construction',
-              content: 'TBD',
-              thumb: '',
-              thumbAlt: ''
-            },
-            {
-              title: 'Under construction',
-              content: 'TBD',
-              thumb: '',
-              thumbAlt: ''
-            }
-          ]} />
+          <ListAccordion list={more} />
         </div>
       </div>
     </>
