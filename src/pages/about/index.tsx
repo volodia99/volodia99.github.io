@@ -16,7 +16,7 @@ export default function About() {
       <div className="wrapper">
         <div className="content">
           <h1>About me</h1>
-          <p>I'm a PosDoc at the Institute for Planetary sciences and Astrophysics (<Link href="https://ipag.osug.fr/" target="_blank">IPAG</Link>), in Grenoble. I am currently working on planetary evolution in protoplanetary disks.</p>
+          <p>I'm a PostDoc at the Institute for Planetary sciences and Astrophysics (<Link href="https://ipag.osug.fr/" target="_blank">IPAG</Link>), in Grenoble. I am currently working on planetary evolution in protoplanetary disks.</p>
         </div>
 
         <ContentImage src="/img/code-in-the-dark.gif" width={1080} height={480} alt="Interaction of a planet">
