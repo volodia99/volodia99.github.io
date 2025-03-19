@@ -1,5 +1,4 @@
 import ListTags from '@/components/lists/listTags/listTags';
-import ListRemarks from '@/components/lists/listRemarks/listRemarks';
 import Link from "next/link";
 import Image from 'next/image';
 import MarkdownWithMath from '@/components/markdown/MarkdownWithMath';
@@ -8,7 +7,6 @@ import styles from './cardJob.module.scss';
 type Props = {
   href: string,
   title: string,
-  remarks:Array<string>,
   author: string,
   description: string,
   tags: Array<string>,
@@ -20,7 +18,6 @@ export default function CardJob(props: Props) {
     <div className={styles.card}>      
       <h3 className={styles.title}>
         <Link href={props.href} target="_blank">{props.title}</Link>
-        <ListRemarks list={props.remarks}/>
       </h3>
       <p className={styles.author}>{props.author}</p>
       <div className={styles.description}>
