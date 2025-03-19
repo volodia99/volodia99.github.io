@@ -3,8 +3,9 @@
     "year": 2025,
     "jobs": [
       {
-        "title": "[submitted] Gone with the wind: the outward migration of eccentric giant planets in windy disks",
+        "title": "Gone with the wind: the outward migration of eccentric giant planets in windy disks",
         "href": "https://arxiv.org/abs/2503.01745",
+        "remarks": ["new", "accepted"],
         "author": "Wafflard-Fernandez G., Lesur G.",
         "description": "In a protoplanetary disk with magnetic winds, giant planets tend to migrate slowly outwards and become moderately eccentric, which may lead to an orbital variability in both the accretion rate and the wind mass loss rate.",
         "tags": ["accretion", "accretion disks", "protoplanetary disks", "magnetic winds", "planet-disk interactions", "planet migration", "eccentricity", "magnetohydrodynamics (MHD)"]
@@ -17,6 +18,7 @@
       {
         "title": "Planet-disk-wind interaction: The magnetized fate of protoplanets",
         "href": "https://ui.adsabs.harvard.edu/abs/2023A%26A...677A..70W/abstract",
+        "remarks": [""],
         "author": "Wafflard-Fernandez G., Lesur G.",
         "description": "Magnetic winds affect planet-disk interactions, with in particular complex 3D flows, sonic accretion streamers in a radially-asymmetric planet gap, and a possible outward planet migration.",
         "tags": ["accretion", "accretion disks", "protoplanetary disks", "magnetic winds", "planet-disk interactions", "magnetohydrodynamics (MHD)"]
@@ -24,6 +26,7 @@
       {
         "title": "IDEFIX: A versatile performance-portable Godunov code for astrophysical flows",
         "href": "https://ui.adsabs.harvard.edu/abs/2023A%26A...677A...9L/abstract",
+        "remarks": [""],
         "author": "Lesur G., Baghdadi S., Wafflard-Fernandez G., Mauxion J., Robert C., Van den Bossche M.",
         "description": "\\href{IDEFIX}{https://github.com/idefix-code/idefix} is a GPU-accelerated code, based on a finite-volume Godunov scheme and portable to a wide variety of architectures. It is particularly well suited to astrophysical flows, and therefore to disk-planet interactions.",
         "tags": ["hydrodynamics", "magnetohydrodynamics (MHD)", "numerical methods", "GPU"]
@@ -36,6 +39,7 @@
       {
         "title": "Observational signatures of eccentric Jupiters inside gas cavities in protoplanetary discs",
         "href": "https://ui.adsabs.harvard.edu/abs/2021MNRAS.505..359B/abstract",
+        "remarks": [""],
         "author": "Baruteau C., Wafflard-Fernandez G., Le Gal R., Debras F., Carmona A., Fuente A., Rivière-Marichalar P.",
         "description": "An eccentric warm Jupiter inside a cavity generates asymmetries and velocity perturbations in the $^{12}$CO emission, visible with ALMA, but has little effect on the $^{13}$CO and C$^{18}$O emission, on the radio continuum of dust thermal emission and on the light scattered by them in near-IR.",
         "tags": ["accretion", "accretion disks", "protoplanetary disks", "planet-disk interactions", "planet migration", "eccentricity", "hydrodynamics", "radiative transfer"]
@@ -48,6 +52,7 @@
       {
         "title": "Intermittent planet migration and the formation of multiple dust rings and gaps in protoplanetary disks",
         "href": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.5892W/abstract",
+        "remarks": [""],
         "author": "Wafflard-Fernandez G., Baruteau C.",
         "description": "A single Saturn-like planet switching between slow and runaway migration regimes generates concentric rings of dust, visible by ALMA in the form of bright and dark rings.",
         "tags": ["accretion", "accretion disks", "protoplanetary disks", "planet-disk interactions", "planet migration", "hydrodynamics", "radiative transfer"]
@@ -60,6 +65,7 @@
       {
         "title": "A Comparison of Two Methods for Estimating Black Hole Spin in Active Galactic Nuclei",
         "href": "https://ui.adsabs.harvard.edu/abs/2017ApJ...836L...8C/abstract",
+        "remarks": [""],
         "author": "Capellupo D., Wafflard-Fernandez G., Haggard D.",
         "description": "The spin estimate of two AGN black holes is consistent between two methods, reinforcing their reliability, but is highly dependent on accurate measurement of black hole mass and the impact of disk winds on accretion.",
         "tags": ["accretion", "accretion disks", "black hole physics", "galaxies: active", "galaxies: Seyfert", "Astrophysics of Galaxies", "High Energy Astrophysical Phenomena"]
