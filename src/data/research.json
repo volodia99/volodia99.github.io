@@ -3,6 +3,13 @@
     "year": 2025,
     "jobs": [
       {
+        "title": "exoALMA. VII. Benchmarking Hydrodynamics and Radiative Transfer Codes",
+        "href": "https://ui.adsabs.harvard.edu/abs/2025ApJ...984L..12B/abstract",
+        "author": "Bae J., Flock M., Izquierdo A., Kanagawa K., Ono T., Pinte C., Price D. J., Rosotti G. P., Wafflard-Fernandez G., Lesur G., Masset F., Andrews S. M., Barraza-Alfaro M., Benisty M., Cataldi G., Cuello N., Curone P., Czekala I., Facchini S., Fasano D., Galloway-Sprietsma M., Hall C., Hammond I., Huang J., Lodato G., Longarini C., Stadler J., Teague R., Wilner D. J., Winter A. J., Wölfer L., Yoshida T. C.",
+        "description": "This benchmark shows that several hydrodynamics code (IDEFIX, FARGO3D, PLUTO, ATHENA++, ...), and radiative transfer codes (mcfost, RADMC-3D) can be used and combined to reliably model strong planet-driven kinematic perturbations in circumstellar disks.",
+        "tags": ["protoplanetary disks", "planet-disk interactions", "hydrodynamics", "radiative transfer"]
+      },
+      {
         "title": "Gone with the wind: the outward migration of eccentric giant planets in windy disks",
         "href": "https://ui.adsabs.harvard.edu/abs/2025A%26A...696A...8W/abstract",
         "author": "Wafflard-Fernandez G., Lesur G.",
