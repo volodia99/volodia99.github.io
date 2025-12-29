@@ -1,21 +1,21 @@
 [
     {
         "title": "nonos",
-        "href": "https://github.com/volodia99/nonos",
+        "href": "https://github.com/la-niche/nonos",
         "content": "A python library for the analysis & visualization of simulated planet−disk interactions. \n\n Co-developped and co-maintained with \\href{neutrinoceros}{https://github.com/neutrinoceros}.",
         "thumb": "",
         "thumbAlt": ""
     },
     {
         "title": "lick",
-        "href": "https://github.com/volodia99/lick",
+        "href": "https://github.com/la-niche/lick",
         "content": "A python package for vector field representation, using a Line Integral Convolution library. \n\n Co-developped and co-maintained with \\href{neutrinoceros}{https://github.com/neutrinoceros}.",
         "thumb": "/img/lick.jpg",
         "thumbAlt": ""
     },
     {
         "title": "cblind",
-        "href": "https://github.com/volodia99/cblind",
+        "href": "https://github.com/la-niche/cblind",
         "content": "A colorblind-friendly python module that allows color choice for colormaps and plotting multiple curves. \n\n Co-developped and co-maintained with \\href{neutrinoceros}{https://github.com/neutrinoceros}.",
         "thumb": "/img/colormaps.png",
         "thumbAlt": ""
